@@ -1,0 +1,88 @@
+main{
+    width: 320px;
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 30px 20px;
+}
+
+main strong{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: seagreen;
+}
+
+main form{
+    margin-top: 30px;
+}
+
+main form .area-do-usuario + .area-do-usuario{
+    margin-top: 20px;
+}
+
+main form .input-group{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+main form .area-do-usuario{
+    margin-top: 30px;
+}
+
+main form .area-do-usuario label{
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+main form .area-do-usuario input{
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+main form button[type=button]{
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background: seagreen;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+main form button[type=button]:hover{
+    background: springgreen;
+}
+
+div .msg-login{
+    font-size: 12px;
+    text-align: center;
+}
+
+div .msg-login strong{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+div .logo-medsenio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
